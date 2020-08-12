@@ -1,0 +1,233 @@
+h1{
+    font-family: 'Grenze Gotisch', cursive;
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    
+}
+h2{
+    font-family: 'Grenze Gotisch', cursive;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+
+
+body{
+    background: #c2e59c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.btn{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+
+}
+
+.probtn{
+
+    background-color: rgb(236, 181, 148);
+    border-radius: 7px;
+   
+}
+.homebtn{
+
+    background-color: rgb(0, 235, 215);
+    border-radius: 7px;
+}
+
+
+
+div.project:hover{
+
+    
+
+}
+
+@keyframes mymove {
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 12px); } 
+    100%   { transform: translate(0, -0px); }     
+  }
+
+  .probtn,.homebtn{
+
+    animation-name: mymove;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+
+  }
+
+
+
+
+
+
+  @media screen and (max-width: 992px) {
+    .probtn,.homebtn {
+      
+        
+
+  }
+   
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    
+  }
+
+
+
+  @media (min-width: 568px) {
+    .probtn,.homebtn {
+      
+        
+        margin: auto auto;
+
+  }
+  }
+  @media (min-width: 1092px) {
+    .probtn,.homebtn {
+      
+        
+        margin: 70px;
+
+  }
+  }
+  @media (min-width: 1200px) {
+    .probtn,.homebtn {
+      
+        
+      
+        margin-top: 70px;
+  }
+}
+
+.card1,.card2,.card3{
+
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 20px;
+    padding: 20px;  
+       
+ }
+
+ section{
+    display: flex;
+   
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+   }
+ 
+
+ div.card3:hover{
+
+  transform: scale(1.2);
+  background-color: white;
+
+ }
+ div.card1:hover{
+
+    transform: scale(1.2);
+    background-color: white;
+   }
+   div.card2:hover{
+
+    transform: scale(1.2);
+    background-color: white;
+
+   }
+
+   .anim{
+
+    transition-duration: 0.3s;
+   }
+
+
+      @keyframes mymoveb {
+        0% { transform: translate(0,  0px); } 
+        50%  { transform: translate(0px, -12px); } 
+        100%   { transform: translate(0, 0px); }     
+      }
+
+      .card4{
+
+        animation-name: mymoveb;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+
+
+      }
+      @keyframes mymoveb {
+        0% { transform: translate(0,  0px); } 
+        50%  { transform: translate(0px, -16px); } 
+        100%   { transform: translate(0, 0px); }     
+      }
+
+      .card5{
+
+        animation-name: mymoveb;
+        animation-duration: 0.9s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+
+
+      }
+      @keyframes mymoveb {
+        0% { transform: translate(0,  0px); } 
+        50%  { transform: translate(0px, -10px); } 
+        100%   { transform: translate(0, 0px); }     
+      }
+
+      .card6{
+
+        animation-name: mymoveb;
+        animation-duration: 0.8s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+
+
+      }
+
+      @media (min-width: 468px) {
+        section{
+          
+            
+            margin: 50px;
+    
+      }
+      }
+      @media (min-width: 1092px) {
+        section{
+          
+            
+            margin: 70px;
+    
+      }
+      }
+      @media (min-width: 1200px) {
+        section{
+          
+            
+          
+            margin-top: 70px;
+      }
+    }
+
+    div.b:hover{
+           
+        cursor: pointer;
+    }
