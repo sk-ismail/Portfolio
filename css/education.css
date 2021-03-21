@@ -36,12 +36,18 @@ background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, F
 
     background-color: rgb(236, 181, 148);
     border-radius: 7px;
+    border: none;
+    padding: 8px;
+    cursor: progress;
    
 }
 .homebtn{
 
     background-color: rgb(0, 235, 215);
     border-radius: 7px;
+    border: none;
+    padding: 8px;
+    cursor: progress;
 }
 
 
@@ -230,4 +236,11 @@ div.project:hover{
     div.b:hover{
            
         cursor: pointer;
+    }
+
+
+    @media screen and (max-width: 900px){
+      .mainheading{
+        font-size: xx-large;
+      }
     }
