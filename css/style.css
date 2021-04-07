@@ -66,73 +66,7 @@ img{
          
     }
 
-    @keyframes mymove {
-        0% { transform: translate(0,  0px); } 
-        50%  { transform: translate(0, 15px); } 
-        100%   { transform: translate(0, -0px); }     
-      }
 
-      .a{
-
-        animation-name: mymove;
-        animation-duration: 0.6s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-
-
-      }
-
-      @keyframes mymoveb {
-        0% { transform: translate(0,  0px); } 
-        50%  { transform: translate(0px, -12px); } 
-        100%   { transform: translate(0, 0px); }     
-      }
-
-      .b{
-
-        animation-name: mymoveb;
-        animation-duration: 0.6s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-
-
-      }
-
-      @keyframes mymoveb {
-        0% { transform: translate(0,  0px); } 
-        50%  { transform: translate(0px, -13px); } 
-        100%   { transform: translate(0, 0px); }     
-      }
-
-      .c{
-
-        animation-name: mymoveb;
-        animation-duration: 0.7s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-
-
-      }
-      @keyframes mymoveb {
-        0% { transform: translate(0,  0px); } 
-        50%  { transform: translate(0px, -14px); } 
-        100%   { transform: translate(0, 0px); }     
-      }
-
-      .d{
-
-        animation-name: mymoveb;
-        animation-duration: 0.6s;
-        animation-iteration-count: infinite;
-        animation-timing-function: ease-in-out;
-
-
-      }
-      @keyframes mymoveb {
-        0% { transform: translate(0,  0px); } 
-        50%  { transform: translate(0px, -11px); } 
-        100%   { transform: translate(0, 0px); }     
-      }
 
       .e{
 
@@ -163,7 +97,7 @@ background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, F
     }
 
 
-  @media screen and (max-width: 600px){
+  @media screen and (max-width: 1100px){
 
             .a{
                 order: -2;
