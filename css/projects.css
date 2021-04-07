@@ -25,6 +25,7 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
     color: white;
     padding: 8px;
     border-radius: 5px;
+    cursor: pointer;
 
 }
 
@@ -35,6 +36,7 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
     color: white;
     padding: 8px;
     border-radius: 5px;
+    cursor: pointer;
 }
 /*cards*/
 
@@ -55,7 +57,13 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
   }
   @media screen and (max-width: 800px){
 
-
+    .headersection{
+      margin: 70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
 
   }
   
