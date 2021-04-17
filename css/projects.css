@@ -116,7 +116,10 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
   .skill-card .skill-card__header {
     position: relative;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,47,0.8211659663865546) 48%, rgba(0,212,255,1) 100%);
+    background: #dd3e54;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     height: 170px;
     margin: -20px -20px 20px -20px;
     transition: height .5s;
