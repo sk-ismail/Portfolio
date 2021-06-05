@@ -115,10 +115,8 @@ background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, F
   
   .skill-card .skill-card__header {
     position: relative;
-    background: rgb(2,0,36);
-    background: #dd3e54;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6be585, #dd3e54);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6be585, #dd3e54); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     height: 170px;
     margin: -20px -20px 20px -20px;
@@ -263,4 +261,50 @@ padding: 0px;
     flex-wrap: wrap;
     margin: 30px;
     justify-content: center;
+}
+
+
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 99;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  z-index: 99;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 99;
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+  z-index: 99;
 }
